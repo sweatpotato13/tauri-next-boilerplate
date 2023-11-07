@@ -9,11 +9,8 @@ import {
 } from "@/components/ui/navigation-menu";
 import { HomeIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
 
 export function UserNav() {
-    const t = useTranslations("UserNav");
-
     return (
         <NavigationMenu>
             <NavigationMenuList>
@@ -31,7 +28,7 @@ export function UserNav() {
                         <NavigationMenuLink
                             className={navigationMenuTriggerStyle()}
                         >
-                            {t("menu1")}
+                            {"Menu1"}
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>

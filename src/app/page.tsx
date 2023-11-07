@@ -7,13 +7,7 @@ import {
     CardTitle,
 } from "@/components/ui/card";
 
-export async function generateStaticParams() {
-    return [{ locale: "en" }, { locale: "ko" }];
-}
-
-export default function Page({ params }: { params: { locale: string } }) {
-    const { locale } = params;
-    locale;
+export default function Page() {
     return (
         <>
             <Card className="m-4">
