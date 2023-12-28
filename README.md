@@ -52,7 +52,6 @@
 </details>
 
 
-
 ### Built With
 
 * [Nextjs](https://nextjs.org/)
@@ -66,6 +65,8 @@
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
+
+![ss](https://i.imgur.com/hNeW7pI.png)
 
 ### Installation
 
